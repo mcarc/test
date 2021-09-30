@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
     <title>Minecraft 版本库</title>
     <link rel="stylesheet" href="index.css">
 </head>
@@ -20,18 +20,19 @@
     <section>
         <img src="./images/stars.png" alt="" class="stars">
         <img src="./images/moon.png" alt="" class="moon">
-        <div class="desc">HELLO WORD!</div>
-        <a href="#title" class="btn">进入版本库</a>
+        <div class="desc">test</div>
         <img src="./images/mountains_behind.png" alt="" class="mountains_behind">
         <img src="./images/mountains_front.png" alt="" class="mountains_front">
+        <a href="#title" class="btn">进入版本库</a>
     </section>
     <script>
         const stars = document.querySelector('.stars');
         const moon = document.querySelector('.moon');
         const desc = document.querySelector('.desc');
-        const btn = document.querySelector('.btn');
+        
         const mountains_behind = document.querySelector('.mountains_behind');
         const mountains_front = document.querySelector('.mountains_front');
+        const btn = document.querySelector('.btn');
         window.addEventListener('scroll', function() {
             let value = window.scrollY;
             stars.style.left = value * 0.25 + 'px';
