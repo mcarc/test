@@ -1660,12 +1660,7 @@ section img {
 
 .text {
     color: #fff;
-    padding: 20px 4%;
+    padding: 0;
     background-color: #1c0522;
-}
-
-.text h2 {
-    font-size: 30px;
-    font-weight: 600;
 }
 
